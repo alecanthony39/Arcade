@@ -1,0 +1,95 @@
+
+*{
+  font-family:'Gajraj One', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/019/899/522/original/retro-vibe-doodle-pattern-video-game-hand-drawn-doodle-seamless-pattern-tetris-video-game-console-tetris-element-lettering-game-play-computer-retro-arcade-play-background-wallpaper-pattern-free-vector.jpg");
+    
+  }
+
+  .head{
+    display: flex;
+    border: 1px solid black;
+    height: 100%;
+    font-size: 6em;
+    justify-content: center;
+    padding: 10px;
+    background-color:  grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+}
+
+
+
+
+
+  table{
+
+    border: solid black 1px;
+    box-shadow: 10px 10px 10px black;
+  }
+
+  td {
+    height: 64px;
+    width: 64px;
+    background-color: white;
+    border: black solid 1px;
+   
+  }
+
+.snake {
+  background-color: red;
+  border-radius: 30%;
+
+}
+
+
+.fruit{
+
+  background-color: aqua;
+  border-radius: 200%;
+
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+margin-top: 2em;
+
+}
+
+button{
+  font-size: larger;
+  margin-left: 4em;
+
+}
+
+p {
+  font-size: 2em;
+
+}
+span{
+  font-size: 1em;
+ 
+}
+h1{
+  font-size: 4em;
+ 
+}
+
+.powerUp{
+  border-radius: 100%;
+}
+.records{
+  display: flex;
+  flex-direction: row;
+  color: grey;
+}
+
+#score{
+  margin-right: 3em;
+}
+
